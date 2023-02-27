@@ -1,0 +1,636 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main {
+  width: 100%;
+  height: 10vh;
+}
+
+#main nav {
+  background-color: rgb(0, 0, 0);
+  padding: 15px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+#main nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  margin-right: 170px;
+}
+
+#main nav ul li {
+  padding: 15px;
+}
+
+#main nav ul li .nav {
+  text-decoration: none;
+  color: white;
+  font-family: "Andika", sans-serif;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Oswald", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#main nav ul li .nav:hover {
+  color: rgb(162, 142, 142);
+}
+
+#main nav ul li input {
+  border: none;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid white;
+  outline: none;
+  background-color: transparent;
+  width: 120px;
+  color: white;
+  font-family: "Andika", sans-serif;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Oswald", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#nav1 {
+  margin-top: 10rem;
+}
+
+/* resimler */
+
+.resimle1 {
+  background-color: black;
+}
+
+iframe {
+  margin-left: 34rem;
+  position: absolute;
+  width: 36%;
+  height: 33%;
+  margin-top: 1rem;
+  border-radius: 2rem;
+}
+
+.resimleee1 {
+  height: 62rem;
+  display: none;
+}
+
+.resimleee1 #resim9 {
+  position: absolute;
+  width: 52%;
+  height: 55%;
+  margin-left: 25rem;
+  cursor: pointer;
+  border-radius: 15%;
+}
+
+.resimleee1 #det {
+  color: white;
+  margin-left: 82rem;
+  font-size: xxx-large;
+  position: absolute;
+}
+
+.resimleee2 {
+  height: 62rem;
+  display: none;
+}
+
+.resimleee2 #resim9 {
+  position: absolute;
+  width: 52%;
+  height: 55%;
+  margin-left: 25rem;
+  cursor: pointer;
+  border-radius: 15%;
+}
+
+.resimleee2 #dete {
+  color: white;
+  margin-left: 82rem;
+  font-size: xxx-large;
+  position: absolute;
+}
+
+.resimleee3 {
+  height: 62rem;
+  display: none;
+}
+
+.resimleee3 #resim9 {
+  position: absolute;
+  width: 52%;
+  height: 55%;
+  margin-left: 25rem;
+  cursor: pointer;
+  border-radius: 15%;
+}
+
+.resimleee3 #deten {
+  color: white;
+  margin-left: 82rem;
+  font-size: xxx-large;
+  position: absolute;
+}
+
+.resimleee4 {
+  height: 62rem;
+  display: none;
+}
+
+.resimleee4 #resim9 {
+  position: absolute;
+  width: 52%;
+  height: 55%;
+  margin-left: 25rem;
+  cursor: pointer;
+  border-radius: 15%;
+}
+
+.resimleee4 #detene {
+  color: white;
+  margin-left: 82rem;
+  font-size: xxx-large;
+  position: absolute;
+}
+
+.resimleee5 {
+  height: 62rem;
+  display: none;
+}
+
+.resimleee5 #resim9 {
+  position: absolute;
+  width: 52%;
+  height: 55%;
+  margin-left: 25rem;
+  cursor: pointer;
+  border-radius: 15%;
+}
+
+.resimleee5 #detenen {
+  color: white;
+  margin-left: 82rem;
+  font-size: xxx-large;
+  position: absolute;
+}
+
+.resimleee6 {
+  height: 62rem;
+  display: none;
+}
+
+.resimleee6 #resim9 {
+  position: absolute;
+  width: 52%;
+  height: 55%;
+  margin-left: 25rem;
+  cursor: pointer;
+  border-radius: 15%;
+}
+
+.resimleee6 #detenene {
+  color: white;
+  margin-left: 82rem;
+  font-size: xxx-large;
+  position: absolute;
+}
+
+.resimleee7 {
+  height: 62rem;
+  display: none;
+}
+
+.resimleee7 #resim9 {
+  position: absolute;
+  width: 52%;
+  height: 55%;
+  margin-left: 25rem;
+  cursor: pointer;
+  border-radius: 15%;
+}
+
+.resimleee7 #detenenen {
+  color: white;
+  margin-left: 82rem;
+  font-size: xxx-large;
+  position: absolute;
+}
+
+.resimleee8 {
+  height: 62rem;
+  display: none;
+}
+
+.resimleee8 #resim9 {
+  position: absolute;
+  width: 52%;
+  height: 55%;
+  margin-left: 25rem;
+  cursor: pointer;
+  border-radius: 15%;
+}
+
+.resimleee8 #detenenene {
+  color: white;
+  margin-left: 82rem;
+  font-size: xxx-large;
+  position: absolute;
+}
+
+.kare {
+  background-color: aliceblue;
+  width: 40px;
+  height: 40px;
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  color: black;
+  background: aquamarine;
+  border-radius: 65%;
+  cursor: pointer;
+}
+.kare:hover {
+  opacity: 0.8;
+}
+
+#salon {
+  display: flex;
+  position: absolute;
+  top: 72%;
+  left: 47%;
+  transform: translate(-50%, -1%);
+  color: antiquewhite;
+}
+.sıra1,
+.sıra2,
+.sıra3,
+.sıra4,
+.sıra5,
+.sıra6,
+.sıra7,
+.sıra8 {
+  text-align: center;
+}
+
+.sıra3 {
+  margin-left: 4rem;
+}
+
+.sıra6 {
+  margin-right: 4rem;
+}
+
+.modal {
+  width: 15%;
+  height: 80%;
+  background-color: aquamarine;
+  margin-left: 38%;
+  align-items: center;
+  border-radius: 10%;
+  display: none;
+  margin-top: 12rem;
+}
+.modal h2 {
+  margin-left: 15rem;
+  font-size: x-large;
+  cursor: pointer;
+}
+
+.modal h2:hover {
+  opacity: 0.8;
+}
+.modal form input {
+  border-radius: 2%;
+  display: block;
+  margin-left: 2rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  border: 1px solid aquamarine;
+  cursor: pointer;
+}
+
+.modal form input:hover {
+  border: 1px solid aquamarine;
+  opacity: 0.8;
+}
+
+.modal form #kayıt-ol {
+  margin-top: 10px;
+  margin-left: 1.5rem;
+  padding: 1rem;
+  color: black;
+  display: inline-block;
+}
+
+.modal form #kayıt-ol:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.modal form .giriş-yap {
+  position: absolute;
+
+  font-size: x-large;
+  margin-top: -2.8rem;
+
+  margin-left: 10rem;
+}
+
+#kayıtoll {
+  padding: 1rem;
+  margin-left: 1rem;
+  font-size: x-large;
+}
+
+.main1 {
+  background-color: rgba(0, 0, 0, 0.151);
+  width: 300px;
+  height: 45vh;
+  align-items: center;
+  margin: auto;
+  margin-top: 115px;
+  display: none;
+  border-radius: 9%;
+  margin-left: 45rem;
+}
+
+.main1 #login {
+  text-align: center;
+  position: relative;
+  top: 50px;
+  height: 83%;
+  background-color: aquamarine;
+  padding-top: 3rem;
+  border-radius: 7%;
+}
+
+.main1 label {
+  color: rgb(59, 59, 59);
+  display: block;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main1 input {
+  padding: 10px 15px;
+  outline: none;
+  border: 3px solid aquamarine;
+  cursor: pointer;
+}
+
+.main1 input:hover {
+  opacity: 0.8;
+}
+
+.main1 button {
+  display: block;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 10%;
+  border: 1px solid rgb(255 255 255);
+  margin-top: 1rem;
+  padding: 10px;
+}
+
+.main1 h1 {
+  margin-left: 16rem;
+  margin-top: -3rem;
+  position: absolute;
+  cursor: pointer;
+}
+
+.main1 h1:hover {
+  opacity: 0.6;
+}
+
+.alt {
+  display: block;
+}
+
+.alt input {
+  height: 114%;
+  width: 50%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  margin-left: 24rem;
+  margin-top: 0rem;
+  border: 3px solid aquamarine;
+  background: aquamarine;
+  cursor: pointer;
+}
+
+.alt input:hover {
+  opacity: 0.6;
+  border-top: 3px solid aquamarine;
+}
+
+.alt label {
+  text-align: center;
+  display: block;
+  margin-top: 2rem;
+  color: aquamarine;
+  margin-right: 15rem;
+  font-size: 23px;
+}
+
+.alt #tek {
+  padding: 1rem;
+  width: 15%;
+  margin-left: 44rem;
+  margin-top: 1rem;
+  background: aquamarine;
+  border: 1px solid aquamarine;
+  border-radius: 1rem;
+}
+
+.alt #email {
+  margin-left: 1rem;
+}
+
+#baslikk {
+  margin-left: 47rem;
+  font-size: xxx-large;
+  font-family: cursive;
+  color: aquamarine;
+  padding-top: 3rem;
+}
+
+#ana-depo {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  width: 250px;
+  height: 300px;
+  margin-right: 70px;
+  cursor: pointer;
+}
+
+img:hover {
+  opacity: 0.7;
+}
+
+#ilkkisim {
+  display: flex;
+  margin-left: 18rem;
+  width: 200px;
+  margin-bottom: 50px;
+  color: white;
+  padding-top: 50px;
+}
+
+#ikincikisim {
+  display: flex;
+  margin-left: 18rem;
+  width: 200px;
+  color: rgb(197, 196, 196);
+}
+
+#yönetici {
+  margin-left: 46rem;
+  color: aquamarine;
+  font-family: cursive;
+  margin-top: 3rem;
+}
+.main3 {
+  display: flex;
+  width: 100%;
+  margin-top: 3rem;
+  justify-content: center;
+}
+
+.main3 h4 {
+  margin-top: 1rem;
+  display: flex;
+  color: aquamarine;
+}
+.main3 img {
+  width: 250px;
+  height: 250px;
+  margin-left: 0rem;
+  border-radius: 25px;
+  padding: -2rem;
+}
+
+.main3 .icons {
+  display: block;
+  text-align: center;
+  margin-top: -1.6rem;
+  font-size: 2rem;
+  color: aquamarine;
+}
+
+i:hover {
+  cursor: pointer;
+}
+
+#icons1 {
+  padding-left: 3rem;
+}
+
+.sıra2 {
+  margin-left: 11px;
+}
+
+.sıra3 {
+  margin-right: 10px;
+}
+
+.sıra4 {
+  margin-right: 10px;
+}
+.sıra5 {
+  margin-right: 10px;
+}
+.sıra8 {
+  margin-left: 10px;
+}
+
+.resimleee1 h1 {
+  cursor: pointer;
+}
+
+.resimleee1 h1:hover {
+  opacity: 0.7;
+}
+
+.resimleee2 h1 {
+  cursor: pointer;
+}
+
+.resimleee2 h1:hover {
+  opacity: 0.7;
+}
+
+.resimleee3 h1 {
+  cursor: pointer;
+}
+
+.resimleee3 h1:hover {
+  opacity: 0.7;
+}
+
+.resimleee4 h1 {
+  cursor: pointer;
+}
+
+.resimleee4 h1:hover {
+  opacity: 0.7;
+}
+
+.resimleee5 h1 {
+  cursor: pointer;
+}
+
+.resimleee5 h1:hover {
+  opacity: 0.7;
+}
+
+.resimleee6 h1 {
+  cursor: pointer;
+}
+
+.resimleee6 h1:hover {
+  opacity: 0.7;
+}
+
+.resimleee7 h1 {
+  cursor: pointer;
+}
+
+.resimleee7 h1:hover {
+  opacity: 0.7;
+}
+
+.resimleee8 h1 {
+  cursor: pointer;
+}
+
+.resimleee8 h1:hover {
+  opacity: 0.7;
+}
+
+.kredi {
+  background-color: aqua;
+  height: 62rem;
+  display: none;
+}
+
+ .kredi #redi{ 
+  width: 100px ;
+  height:100px;
+  background-color:  rgb(167, 21, 167),;
+} 
